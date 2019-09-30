@@ -1,1 +1,27 @@
 // Navigation code here
+
+body {
+    .navigation {
+        .flexify();
+        flex-direction: column;
+        align-items: center;
+        background-color: @nav-bg;
+    
+        .logo {
+            font-size: 4rem;
+            margin-top: 1rem;
+        }
+    
+        nav {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            a {
+                text-decoration: none;
+                color: @nav-font;
+                font-size: 2rem;
+                margin: 2rem;
+            }
+        }
+    }
+}
+
