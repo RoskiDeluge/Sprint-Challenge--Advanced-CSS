@@ -71,6 +71,7 @@
       width: 50%;
       @media @phone {
         width: 100%;
+        margin-top: 20px;
       }
 
       h3 {
@@ -91,14 +92,15 @@
         .buttonStyle(@btn-bg-color, @porcelain, @mainfont, 20px);
         cursor: pointer;
         @media @phone {
-          width: 80%;
-          margin: auto;
-          padding: 2rem 10rem;
+          .mobileButton();
         }
       }
 
       .btn:hover {
         .buttonStyle(@porcelain, @btn-bg-color, @mainfont, 20px);
+        @media @phone {
+          .mobileButton();
+        }
       }
     }
 
