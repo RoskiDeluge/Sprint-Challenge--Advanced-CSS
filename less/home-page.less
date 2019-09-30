@@ -12,7 +12,7 @@
       padding:0 15px;
     }
 
-    #main-header {
+    .main-img {
       border-radius: 5px;
     }
   
@@ -63,6 +63,11 @@
 
       .btn {
         .buttonStyle(@btn-bg-color, @porcelain, @mainfont, 20px);
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        .buttonStyle(@porcelain, @btn-bg-color, @mainfont, 20px);
       }
     }
 

@@ -196,7 +196,7 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
-.home .intro #main-header {
+.home .intro .main-img {
   border-radius: 5px;
 }
 .home .space-images {
@@ -238,6 +238,17 @@ footer {
 .home .walk .walk-text .btn {
   background-color: #22283A;
   color: #F6F7F8;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 15rem;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
   font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
   text-align: center;
