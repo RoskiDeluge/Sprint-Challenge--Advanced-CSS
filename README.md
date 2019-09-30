@@ -34,8 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
-An adaptive is hardcoded with media queries and adjusts to the at specific breakpoints, wheareas a fully resonsive 
-site continuously adjusts its size based on the viewport. 
+An adaptive site is hardcoded with media queries and adjusts to the screen size at specific breakpoints, wheareas a fully resonsive site continuously adjusts its size based on the viewport. 
 
 2. Describe what it means to be mobile first vs desktop first.
 
